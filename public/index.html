@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LAN FPS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="main-menu" class="overlay active">
+    <div class="menu-bg"></div>
+    <div class="menu-content compact">
+      <div class="menu-column">
+        <h1>BLAZEFIELD</h1>
+        <p>Quick CS-inspired LAN shooter. Pick your name, map and weapons.</p>
+        <div class="field">
+          <label>Nickname</label>
+          <input id="nickname" maxlength="24" placeholder="Nickname" />
+        </div>
+        <div class="field">
+          <label>Map</label>
+          <select id="map-select">
+            <option value="dust">Dust Valley</option>
+            <option value="mirage">Mirage Alley</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Primary</label>
+          <select id="primary-select">
+            <option value="ak">AK-47</option>
+            <option value="m4">M4A1-S</option>
+            <option value="awp">AWP</option>
+            <option value="mp9">MP9</option>
+            <option value="nova">Nova</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Secondary</label>
+          <select id="secondary-select">
+            <option value="glock">Glock-18</option>
+            <option value="usp">USP-S</option>
+            <option value="deagle">Desert Eagle</option>
+          </select>
+        </div>
+        <div class="menu-buttons">
+          <button id="play-btn" class="primary large">Play Game</button>
+        </div>
+      </div>
+      <div class="menu-column stats">
+        <h3>How to play</h3>
+        <p class="hint">WASD to move, Space to jump, click to shoot, R to reload. 1/2/3 swap primary/secondary/knife. Hold E to scope with AWP.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="hud">
+    <div></div>
+  </div>
+
+  <div id="crosshair">+</div>
+  <div id="damage-overlay"></div>
+  <div id="log"></div>
+  <div id="status"></div>
+  <div id="killfeed"></div>
+  <div id="scoreboard">
+    <div class="scoreboard-panel">
+      <h3>Scoreboard</h3>
+      <table id="score-table">
+        <thead>
+          <tr><th>Name</th><th>Kills</th><th>Deaths</th><th>K/D</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <canvas id="minimap" width="200" height="200"></canvas>
+  <div class="stats-mini">
+    <div id="stat-kills">Kills: 0</div>
+    <div id="stat-deaths">Deaths: 0</div>
+    <div id="stat-ammo">Ammo: --</div>
+    <div id="stat-total">Total K: 0 / D: 0</div>
+  </div>
+  <div id="hp">
+    <div id="hp-label">HP: <span id="hp-value">100</span></div>
+    <div id="hp-bar">
+      <div id="hp-fill"></div>
+    </div>
+  </div>
+  <canvas id="scene"></canvas>
+
+  <script type="module" src="/client.js"></script>
+</body>
+</html>

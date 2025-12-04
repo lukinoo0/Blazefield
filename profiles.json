@@ -1,0 +1,74 @@
+{
+  "8008ad19-98e7-407d-b2f1-4c5088297ba7": {
+    "id": "8008ad19-98e7-407d-b2f1-4c5088297ba7",
+    "nickname": "bengoro",
+    "class": "assault",
+    "totalKills": 27,
+    "totalDeaths": 62,
+    "matches": 0
+  },
+  "profile_1764856100222": {
+    "id": "profile_1764856100222",
+    "nickname": "Matej Roch Domanovce 1O2",
+    "class": "sniper",
+    "totalKills": 18,
+    "totalDeaths": 22,
+    "matches": 0
+  },
+  "14838a84-084c-4568-bf84-8990d3042d8d": {
+    "id": "14838a84-084c-4568-bf84-8990d3042d8d",
+    "nickname": "Player",
+    "class": "assault",
+    "totalKills": 5,
+    "totalDeaths": 11,
+    "matches": 0
+  },
+  "7790782d-c91c-4413-926c-5511957608bb": {
+    "id": "7790782d-c91c-4413-926c-5511957608bb",
+    "nickname": "vtisk",
+    "class": "assault",
+    "totalKills": 1,
+    "totalDeaths": 6,
+    "matches": 0
+  },
+  "18dc6fb7-61cc-4664-a663-3b04ed174182": {
+    "id": "18dc6fb7-61cc-4664-a663-3b04ed174182",
+    "nickname": "Player",
+    "class": "assault",
+    "totalKills": 3,
+    "totalDeaths": 1,
+    "matches": 0
+  },
+  "8ca84b1b-feb8-4b95-992e-7af0f4a638df": {
+    "id": "8ca84b1b-feb8-4b95-992e-7af0f4a638df",
+    "nickname": "vtisk",
+    "class": "assault",
+    "totalKills": 2,
+    "totalDeaths": 6,
+    "matches": 0
+  },
+  "a148a515-f416-4195-b8da-281dcd243157": {
+    "id": "a148a515-f416-4195-b8da-281dcd243157",
+    "nickname": "Player",
+    "class": "assault",
+    "totalKills": 1,
+    "totalDeaths": 6,
+    "matches": 0
+  },
+  "b559a158-f286-4231-941b-16d4f17ca23f": {
+    "id": "b559a158-f286-4231-941b-16d4f17ca23f",
+    "nickname": "wdwd",
+    "class": "assault",
+    "totalKills": 11,
+    "totalDeaths": 8,
+    "matches": 0
+  },
+  "8c15b875-1384-45e3-b220-54daca8bbfe8": {
+    "id": "8c15b875-1384-45e3-b220-54daca8bbfe8",
+    "nickname": "Player",
+    "class": "assault",
+    "totalKills": 7,
+    "totalDeaths": 8,
+    "matches": 0
+  }
+}
